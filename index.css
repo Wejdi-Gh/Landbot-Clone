@@ -1,0 +1,194 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: #574aab url(https://landbot.io/test/l2/app-landing/img/features-bg.svg) no-repeat fixed bottom left;
+
+}
+
+.border header {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: 0px;
+  background: #574aab url(https://landbot.io/test/l2/app-landing/img/features-bg.svg) no-repeat fixed bottom left;
+
+}
+
+nav li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+  margin-left: 500px;
+
+}
+
+a {
+  font-family: gt_walsheim, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.login {
+  border: 1px solid #ef0075;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 40px;
+
+}
+
+.signup {
+  background-color: #ef0075;
+  border: 1px solid #ef0075;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+section {
+  display: flex
+}
+
+h1 {
+
+  color: white;
+}
+
+.percing:hover,
+.signup:hover,
+.login:hover {
+  opacity: 0.5;
+}
+
+.commentaire {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 17px;
+  color: rgb(69, 33, 98);
+
+
+}
+
+.third-com,
+.second-com,
+.first-com {
+  border: 1px solid white;
+  border-radius: 20px;
+
+  box-shadow: 0px 0px 5px 5px #574aab;
+  padding: 10px;
+  background-color: white;
+  margin: 3px;
+}
+
+.image-gif img {
+  border: solid trasparent;
+  border-radius: 20px;
+  width: 400px;
+  height: 200px;
+  margin-right: 120px;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+  align-self: flex-end;
+
+}
+
+.choose {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+}
+
+.choose h6 {
+  align-self: flex-start;
+  margin-left: 60px;
+  color: white;
+  font-size: 10px;
+  font-family: gt_walsheim, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.botton {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  cursor: pointer;
+}
+
+.botton input {
+  width: 240px;
+  height: 64px;
+  font-size: 17px;
+  font-family: gt_walsheim, Helvetica, sans-serif;
+  background-color: rgb(255, 30, 148);
+  border-color: rgb(188, 0, 68);
+  color: white;
+  cursor: pointer;
+}
+
+input:hover {
+  opacity: 0.8;
+  box-shadow: 0px 0px 1px 1px rgb(255, 30, 148);
+}
+
+.choose p {
+  font-size: 14px;
+  font-family: gt_walsheim, Helvetica, sans-serif;
+  color: white;
+}
+
+.choose a {
+  font-size: 14px;
+  font-family: gt_walsheim, Helvetica, sans-serif;
+  color: white;
+  text-decoration: underline;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  bottom: 0px;
+  height: 80px;
+  width: 100%;
+  background: #574aab url(https://landbot.io/test/l2/app-landing/img/features-bg.svg) no-repeat fixed bottom left;
+  border: 0px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px
+}
+
+.border {
+  border: 0px solid rgba(255, 255, 255, 0.4);
+  border-radius: 20px;
+  margin: 15px;
+  border-style: outset;
+  box-shadow: 0 0 30px 30px rgb(40, 30, 101);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
